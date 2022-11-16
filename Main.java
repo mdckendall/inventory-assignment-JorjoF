@@ -18,7 +18,7 @@ class Main {
 			System.out.println("Press 1 to add an item.");
 			System.out.println("Press 2 to delete an item.");
 			System.out.println("Press 3 to update an item.");
-			System.out.println("Press 4 show all items.");
+			System.out.println("Press 4 to show all the items.");
 			System.out.println("Press 5 to quit the program.");
 			int choice = scanner.nextInt();
 			switch(choice){
@@ -29,7 +29,7 @@ class Main {
 					item.name = scanner.nextLine();
 					System.out.println("Enter the serial number:");
 					item.serialNumber = scanner.nextLine();
-					System.out.println("Enter the value in dollars (Whole number):");
+					System.out.println("Enter the value in dollars (whole number):");
 					item.value = scanner.nextInt();
 					inventory.add(item);
 					break;
