@@ -48,7 +48,7 @@ class Main {
 						if(f.serialNumber.equals(case3String)){
 							System.out.println("Enter the new name:");
 							f.name = scanner.nextLine();
-							System.out.println("Enter the new value in dollars (Whole number):");
+							System.out.println("Enter the new value in dollars (whole number):");
 							f.value = scanner.nextInt();
 						}
 					});
